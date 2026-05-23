@@ -2,6 +2,7 @@
 
 A minimalist, dark-themed 10-finger typing practice game built specifically for software developers and cybersecurity enthusiasts. 
 
+![Picture](./10fingerKeyboard.png)
 You can try the live version here: [omeraslan.dev/keyboard](https://omeraslan.dev/keyboard)
 
 ## 🎯 Features
