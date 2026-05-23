@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -370,7 +370,7 @@
   <div class="container">
     <header>
       <h1>10 Finger Keyboard Practice</h1>
-      <p>Programming &amp; Cybersecurity terms · 60 saniye</p>
+      <p>Programming &amp; Cybersecurity terms · 60 seconds</p>
     </header>
 
     <div class="game-area waiting" id="gameArea">
@@ -397,20 +397,20 @@
           autocorrect="off"
           autocapitalize="off"
           spellcheck="false"
-          placeholder="İlk harfi yazarak başlayın…"
+          placeholder="Start typing the first letter to begin..."
         />
       </div>
-      <p class="hint">Kelimeyi bitirince <kbd>Space</kbd> ile onaylayın ve sonraki kelimeye geçin</p>
+      <p class="hint">Press <kbd>Space</kbd> to confirm the word and move to the next one</p>
 
       <div class="results" id="results">
         <h2>Test Completed</h2>
         <div class="score-grid">
           <div class="score-card wpm">
-            <div class="label">Dakikadaki Kelime Sayısı</div>
+            <div class="label">Words Per Minute</div>
             <div class="value" id="finalWpm">0<span class="unit"> WPM</span></div>
           </div>
           <div class="score-card accuracy">
-            <div class="label">Doğruluk Yüzdesi</div>
+            <div class="label">Accuracy Percentage</div>
             <div class="value" id="finalAccuracy">0<span class="unit">%</span></div>
           </div>
         </div>
@@ -519,7 +519,7 @@
 
       typeInput.value = "";
       typeInput.disabled = false;
-      typeInput.placeholder = "İlk harfi yazarak başlayın…";
+      typeInput.placeholder = "Start typing the first letter to begin...";
 
       renderWords();
       typeInput.focus();
